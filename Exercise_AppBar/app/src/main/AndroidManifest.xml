@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ch.paixon.exercise_appbar">
+
+    <application
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Exercise AppBar"
+        android:supportsRtl="true">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- TODO Make sure the correct Parent-Activity is defined -->
+        <activity android:name=".SecondActivity">
+
+        </activity>
+    </application>
+
+</manifest>

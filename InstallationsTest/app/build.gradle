@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "ch.paixon.installationstest"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    // Füge alle jar-Files aus dem libs-Ordner hinzu
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // Füge die App-Support-Library hinzu
+    compile 'com.android.support:appcompat-v7:26.1.0'
+
+    // Wenn für die Test kompiliert wird, füge JUnit hinzu
+    testCompile 'junit:junit:4.12'
+}
