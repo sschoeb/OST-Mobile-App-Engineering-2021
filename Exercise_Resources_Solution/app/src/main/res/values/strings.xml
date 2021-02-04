@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Exercise_Resources_Solution</string>
+    <string name="this_text_is_shown_on_portrait_mode">This text is shown on portrait mode</string>
+</resources>
