@@ -12,3 +12,13 @@ On the top right click onto "Code" and select "Download ZIP"
 
 ## Where do you get the solutions?
 Solutions will be added after the day we did the exercises. 
+
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
